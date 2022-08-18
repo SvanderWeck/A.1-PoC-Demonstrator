@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+OpsCon Demonstrator Masterarbeit Simon van der Weck
+
+{% endblock %}
+
+{% block content %}
+<h1>
+    Funktionsweise
+</h1>
+
+<h5>
+    Ein Nutzer, meist ein Systemarchitekt, erstellt anhand der Prinzipien von MBSE und der Modellierungssprache
+    SysML ein Systemmodell. Nach Fertigstellung wird das Modell exportiert und die Modellinformationen in Form einer
+    .xmi Datei gesichert. Anschließend übergibt der Systemarchitekt das erstellte Systemmodell in Form der .xmi
+    Datei an den Demonstrator. Anschließend erhält der Systemarchitekt eine Empfehlung, welche eine Aussage
+    über die Ausfallwahrscheinlichkeit seines Systems beinhaltet und worauf
+    diese Aussagen beruhen. Der Systemarchitekt erhält Informationen darüber, welche Systemelementkombination und/
+    oder welche Systemapplikation für eine hohe Ausfallvorhersage, laut
+    einem Domänen-Experten, verantwortlich sein können. Anhand dieser Informationen kann der Systemarchitekt die
+    Kombinationen der Systemelemente und den von ihm defi nierten
+    Systemkontext erneut untersuchen.
+</h5>
+
+
+{% endblock %}

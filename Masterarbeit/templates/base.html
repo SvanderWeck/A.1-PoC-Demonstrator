@@ -15,18 +15,17 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="{{ url_for('homepage') }}"><header>  Demonstrator Masterarbeit Simon</header></a>
+    <a class="navbar-brand" href="{{ url_for('homepage') }}">
+        <header> Demonstrator Masterarbeit Simon van der Weck</header>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
+
             <li class="nav-item">
-                <a class="nav-link" href="{{ url_for('homepage') }}">Beschreibung<span class="sr-only">(current)</span></a>
-            </li>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="{{ url_for('aufbau') }}">Aufbau</a>
+                <a class="nav-link" href="{{ url_for('funktionsweise') }}">Funktionsweise</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ url_for('upload') }}">Systemmodell Upload</a>
@@ -65,6 +64,8 @@
     background-color: #AFAFED;
     color: #494E65
     }
+
+
 
 
 

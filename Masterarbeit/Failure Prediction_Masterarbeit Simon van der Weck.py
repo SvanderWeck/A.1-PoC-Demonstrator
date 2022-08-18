@@ -35,9 +35,9 @@ def homepage():
     return render_template('home.html')
 
 
-@app.route('/aufbau')
-def aufbau():
-    return render_template('aufbau.html')
+@app.route('/funktionsweise')
+def funktionsweise():
+    return render_template('funktionsweise.html')
 
 
 # send data from this route to html

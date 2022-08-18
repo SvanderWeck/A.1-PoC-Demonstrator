@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0b24374-2071-4dd9-b69a-47e0f3e81787" name="Changes" comment="20220802">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/funktionsweise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Failure Prediction_Masterarbeit Simon van der Weck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Failure Prediction_Masterarbeit Simon van der Weck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/aufbau.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="e0b24374-2071-4dd9-b69a-47e0f3e81787" name="Changes" comment="20220818" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -473,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659447793963</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="20220818">
+      <created>1660812578646</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660812578646</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,6 +551,7 @@
     <MESSAGE value="20220802_return postive new" />
     <MESSAGE value="20220802_deleted all unnecessary" />
     <MESSAGE value="20220802" />
-    <option name="LAST_COMMIT_MESSAGE" value="20220802" />
+    <MESSAGE value="20220818" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220818" />
   </component>
 </project>

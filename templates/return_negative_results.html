@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Return Result
+{% endblock %}
+
+{% block content %}
+
+<div id="popup1" class="overlay">
+    <div class="popup">
+        <h1>Die KI kam zu folgendem Ergebnis: </h1>
+        <a class="close" href="#">&times;</a>
+        <div id="predict_content" class="content">
+            <h3>
+                <p>Das Modell wird wird voraussichtlich fehlerhaft sein, da es zu {{ c }} % dem fehlerhaften Modell {{ b
+                    }}
+                    gleicht.
+            </h3>
+
+            <p>Domänen-Experten haben folgenden Kommentar zum Scheitern des Systems abgegeben: "{{ e }}" </p>
+            <p>Applikation des Referenzmodells sind:</p>
+            <p>Aussentemperatur: {{ g }}</p>
+            <p>Motordrehzahl: {{ h }}</p>
+            <p>Luftfeuchtigkeit: {{ i }}</p>
+
+
+        </div>
+    </div>
+</div>
+
+
+{% endblock%}

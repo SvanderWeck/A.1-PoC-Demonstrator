@@ -72,7 +72,7 @@ def upload_file():
 
             with pd.option_context('display.max_rows', None, 'display.max_columns',
                                    None):  # more options can be specified also
-                print(df_models)
+                #print(df_models)
 
             b = df_models.loc[hc_model].model_name
             c = str(round(highest_congruency, 2) * 100)
